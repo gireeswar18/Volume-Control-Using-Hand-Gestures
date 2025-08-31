@@ -41,7 +41,7 @@ while True:
                     y1 = y
 
                 if id == 4:
-                    # pointing our fore finger
+                    # pointing our thumb finger
                     cv2.circle(img=image, center=(x, y), radius=8, color=(0, 0, 255), thickness=3)
                     
                     x2 = x
