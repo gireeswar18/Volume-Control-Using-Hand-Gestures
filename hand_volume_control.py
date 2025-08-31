@@ -63,7 +63,7 @@ while True:
     # how to quit
     esc = cv2.waitKey(10)
 
-    if esc == 27: # esc char is ascii
+    if esc == 27: # esc char in ascii
         break
 
 webcam.release()
